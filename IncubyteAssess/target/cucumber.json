@@ -1,0 +1,205 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User navigates to Gmail",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5363628326,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on gmail sign-in page",
+            "match": {
+              "location": "Login_steps.goToGmail()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-14T18:02:11.344Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2963073865,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login_steps.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "compose;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 334178612,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the gmail id",
+            "match": {
+              "location": "Login_steps.clickusername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290845292,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on next button for password screen",
+            "match": {
+              "location": "Login_steps.emailNext_Btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3635673073,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on password textbox",
+            "match": {
+              "location": "Login_steps.clickPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2124044628,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters the password",
+            "match": {
+              "location": "Login_steps.enterpassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142972145,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on next button for login",
+            "match": {
+              "location": "Login_steps.passwordNext_Btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25178356112,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on composeBtn",
+            "match": {
+              "location": "ComposeMail_Steps.click_ComposeBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309952213,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Recipent TextBox",
+            "match": {
+              "location": "ComposeMail_Steps.click_Recipent_TextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135205797,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Email in Recipent TextBox",
+            "match": {
+              "location": "ComposeMail_Steps.enter_Recipent_TextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380212263,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Subject in subject TextBox",
+            "match": {
+              "location": "ComposeMail_Steps.enter_subject_textBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192443284,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on body TextBox",
+            "match": {
+              "location": "ComposeMail_Steps.click_emailBody_TextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433933613,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters Email body in Body TextBox",
+            "match": {
+              "location": "ComposeMail_Steps.enter_emailBody_TextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286401798,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on send mail button",
+            "match": {
+              "location": "ComposeMail_Steps.click_sendMail_Btn()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Compose"
+          }
+        ]
+      }
+    ],
+    "name": "Compose",
+    "description": "",
+    "id": "compose",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/stepDefination/feature_files/composeMail.feature",
+    "tags": []
+  }
+]
